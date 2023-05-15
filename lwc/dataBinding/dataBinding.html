@@ -1,0 +1,207 @@
+<template>
+ 
+  <lightning-card>
+    
+   <template if:true={accObj}>
+    <p>{accobj.Name.value}</p>
+    <p>{accobj.Email.value}</p>
+   </template>
+    </lightning-card>
+    
+    
+ 
+
+</template>
+
+
+
+
+
+
+
+
+
+
+ <!---
+<p>
+WELCOME TO DOM1
+</p>
+<p>
+  WELCOME TO DOM1
+</p>
+<p>
+  WELCOME TO DOM1
+</p>
+  <lightning-input label="A" data-id1="id1"></lightning-input>
+  <lightning-input label="B" data-id2="id2"></lightning-input>
+  
+  <lightning-button label="Click" data-btn="btn" onclick={handleclick}>
+  
+  </lightning-button>
+  <div class="dynamic" lwc:dom="manual">
+
+  </div>
+
+</template>
+<lightning-input class="fname"></lightning-input>
+<p>Welcome to JS</p>
+<lightning-button label="Click" onclick={handleclick}>
+
+</lightning-button>
+
+<template for:each={posts} for:item="post">
+  <div key={post.id}>
+    {post.body}<br/>
+  </div>
+  
+</template>
+
+
+</template>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<lightning-card>
+ 
+
+ <footer >
+  <lightning-layout>
+  <lightning-layout-item>
+  <lightning-input label="enter input" onchange={clickhandle}>
+
+  </lightning-input>
+</lightning-layout-item>
+<lightning-layout-item>
+  <lightning-button label="Add"  variant="brand" onclick={clickhandle1}>
+
+  </lightning-button>
+</lightning-layout-item>
+</lightning-layout>
+</footer>
+
+<ul>
+  <template for:each={tasks} for:item="task">
+  <li key={task.id}>
+    {task.taskname}
+    <lightning-button-icon icon-name="utility:delete " onclick={delete1} value={tasks.id} ></lightning-button-icon>
+
+  </li>
+</template>
+</ul>
+
+
+</lightning-card>
+
+<div class="slds-grid slds-gutter">
+  <div class="slds-col slds-small-size_1-of-1 slds-col slds-medium-size_8-of-12">
+    This example sets the width of the first column 66% of your slds-grid 
+    container and the second column to 33% of your slds-grid container.
+  </div> 
+  <div class="slds-col slds-small-size_1-of-1 slds-col slds-medium-size_4-of-12">
+    A 12 column grid is our most used grid. 
+    Here's an overview of all the available width classes for a 12 column grid:.
+  </div>
+</div>
+
+  <lightning-button label="sum" onclick={sum1}>
+
+</lightning-button>
+
+  <lightning-card title="Data Binding Demo" class="demo">
+        <div class={customstyle}></div>
+     
+        <div class="slds-var-m-around_medium">
+            Welcome {firstname}<br/>
+            {person.age}<br/>
+            {person.position}<br/>
+            {person.Address.city}<br/>
+            {fruit}
+        </div>
+         </lightning-card>
+    <lightning-input name="showtext1" label=" enter Input1 " value={input1} onchange={changehandler1}></lightning-input>
+   
+
+   <lightning-input name="showtext2" label="enter Input2" value={input2} onchange={changehandler2}></lightning-input>
+ <br />
+   <lightning-button name="adds" class="add1" label="ADD" onclick={add}></lightning-button>
+   <lightning-button name="subs" label="SUB" onclick={add}></lightning-button>
+   <lightning-button  name="muls" label="MUL" onclick={add}></lightning-button>
+   <lightning-button  name="divs" label="DIV" onclick={add}></lightning-button>
+   <lightning-button name="clears" label="Clear" onclick={add}></lightning-button>
+   <br/>
+    ANSWER : {ans}
+  <div class={customStyle}>
+    WElCOME,My Boys <br/>
+    <br/>
+    <lightning-button  label="welcome blue" onclick={blue1}></lightning-button>
+    <lightning-button  label="welcome red" onclick={red1}></lightning-button>
+  </div>
+    <lightning-card>
+      <template if:true={isShow}>
+AJ Skill
+      </template>
+      <template if:false={isShow}>
+        My Skill
+              </template>
+    </lightning-card>
+    <lightning-card>
+    
+      <template for:each={p} for:item="fruit">
+        <div key={fruit}>
+          {fruit}
+        </div>
+        
+              </template>
+    </lightning-card>
+    <lightning-card>
+    
+      <template for:each={employees} for:item="emp">
+        <div key={emp.name}>
+        {emp.name}
+        {emp.city}
+        </div>
+        
+              </template>
+    </lightning-card>
+    <lightning-input label="INPUT" name="input1" onchange={clickhandler}>
+
+  </lightning-input>
+  {name}
+  
+  <lightning-card>
+  <lightning-input label="INPUT1"  onchange={clickhandler1}>
+
+  </lightning-input>
+<template if:true={input2}  for:each={products} for:item="product">
+   
+  <div key={product.name}>
+   
+    no stock available
+  
+  </div>
+  </template>
+  <template if:false={input2} for:each={products} for:item="product">
+    <div key={product.name}>
+   
+    {product.name}<br/>
+    {input2} <br/>
+    {product.price}<br/>
+  </div>
+  </template>
+
+</lightning-card>
+  <lightning-input label="INPUT" onchange={clickhandler}>
+
+  </lightning-input>
+  {input1}
+-->

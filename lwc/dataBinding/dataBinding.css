@@ -1,0 +1,27 @@
+.demo{
+    background: yellow;
+    color: black;
+}
+.myStyle{
+    background: green;;
+}
+.myStyle_admin{
+    background: blue;
+    color: black;
+}
+.add1{
+    background-color: blue;
+    margin: 10PX;
+}
+.bluecss{
+    background: blue;
+    color: blue;
+    margin:10px;
+  
+}
+.redcss{
+    background: red ;
+    color:red;
+    margin:10px;
+
+}
